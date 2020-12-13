@@ -42,7 +42,7 @@
             "value": "WindowsMachine"
         },
         "virtualMachineRG": {
-            "value": "Aksh-RG"
+            "value": "AZ-104-VM1-Prod"
         },
         "osDiskType": {
             "value": "StandardSSD_LRS"
@@ -54,7 +54,7 @@
             "value": "akshay"
         },
         "adminPassword": {
-            "value": null
+            "value": "Rohilla_1998"
         },
         "patchMode": {
             "value": "AutomaticByOS"
