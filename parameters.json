@@ -42,7 +42,7 @@
             "value": "WindowsMachine"
         },
         "virtualMachineRG": {
-            "value": "AZ-104-VM1-Prod"
+            "value": "HarpreetRG"
         },
         "osDiskType": {
             "value": "StandardSSD_LRS"
@@ -51,10 +51,10 @@
             "value": "Standard_D16as_v4"
         },
         "adminUsername": {
-            "value": "akshay"
+            "value": "harpreet"
         },
         "adminPassword": {
-            "value": "Rohilla_1998"
+            "value": "Harpreet#123"
         },
         "patchMode": {
             "value": "AutomaticByOS"
