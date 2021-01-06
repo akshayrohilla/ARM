@@ -4,21 +4,23 @@
     "parameters": {
         "Database Administrator Login": {
             "type": "string",
+            "defaultValue": "testadmin"
             "metadata": {
                 "description": "Database administrator login name"
             }
         },
         "Database Administrator Login Password": {
             "type": "securestring",
+            "defaultValue": ""
             "metadata": {
                 "description": "Database administrator password"
             }
         }
     },
     "variables": {
-        "resourceNamePrefix": "[take(uniqueString(resourceGroup().id), 3)]",
-        "hostingPlanName": "[toLower(concat(variables('resourceNamePrefix'), '-', take(uniqueString(resourceGroup().id), 6), '-sp'))]",
-        "siteName": "[toLower(concat(variables('resourceNamePrefix'), '-', take(uniqueString(resourceGroup().id), 6)))]",
+        "resourceNamePrefix": "Lalit_Test_",
+        "hostingPlanName": "[toLower(concat(variables('resourceNamePrefix'), take(uniqueString(resourceGroup().id), 6), '-sp'))]",
+        "siteName": "[toLower(concat(variables('resourceNamePrefix'), take(uniqueString(resourceGroup().id), 6)))]",
         "serverName": "[toLower(concat(variables('resourceNamePrefix'), '-', take(uniqueString(resourceGroup().id), 6), '-db'))]",
         "databaseName": "[concat('db', uniqueString(resourceGroup().id, variables('siteName')))]",
         "databaseVersion": "12.0"
