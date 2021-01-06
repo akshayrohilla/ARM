@@ -18,7 +18,7 @@
         }
     },
     "variables": {
-        "resourceNamePrefix": "Lalit_Test_",
+        "resourceNamePrefix": "[take(uniqueString(resourceGroup().id), 3)]",
         "hostingPlanName": "[toLower(concat(variables('resourceNamePrefix'), take(uniqueString(resourceGroup().id), 6), '-sp'))]",
         "siteName": "[toLower(concat(variables('resourceNamePrefix'), take(uniqueString(resourceGroup().id), 6)))]",
         "serverName": "[toLower(concat(variables('resourceNamePrefix'), '-', take(uniqueString(resourceGroup().id), 6), '-db'))]",
