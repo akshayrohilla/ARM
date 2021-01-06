@@ -4,14 +4,14 @@
     "parameters": {
         "Database Administrator Login": {
             "type": "string",
-            "defaultValue": "testadmin"
+            "defaultValue": "testadmin",
             "metadata": {
                 "description": "Database administrator login name"
             }
         },
         "Database Administrator Login Password": {
             "type": "securestring",
-            "defaultValue": ""
+            "defaultValue": "",
             "metadata": {
                 "description": "Database administrator password"
             }
