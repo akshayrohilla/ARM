@@ -3,4 +3,5 @@
   "description": "This template creates an Azure Web App with Azure SQL Database.",
   "githubUsername": "TestTest",
   "summary": "Deploys an Azure Web App with a SQL database as an environment in a DevTest Lab."
+  
 }
