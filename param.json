@@ -1,0 +1,60 @@
+artifactItemContent={
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfac-dva2-cp-sales001"
+		},
+		"LS_ASYNP_EDWH_DEV_connectionString": {
+			"value": ""
+		},
+		"LS_ASYNP_EDWH_DEV_TARGET_connectionString": {
+			"value": ""
+		},
+		"LS_AKVS_SALES_ETL_SECRETS_properties_typeProperties_baseUrl": {
+			"value": "https://kvau-dva2-cp-sales001.vault.azure.net/"
+		},
+		"LS_ASQL_EDWH_DEV_ADL_properties_typeProperties_url": {
+			"value": "https://saccdva2cpedwhdlake001.dfs.core.windows.net"
+		},
+		"LS_ASQL_EDWH_STAGING_properties_typeProperties_connectionString_secretName": {
+			"value": "edwh-asql-staging-conn-str"
+		},
+		"LS_ASQL_SYNP_POLY_STAGE_properties_typeProperties_url": {
+			"value": "https://saccdva2cppolystage001.dfs.core.windows.net"
+		},
+		"LS_MSSQL_ONPREM_SFSNAPSHOT_properties_typeProperties_connectionString_secretName": {
+			"value": "sfsnapshot-onprem-conn-str"
+		},
+		"MPEP_EDWH_DATALAKE_properties_privateLinkResourceId": {
+			"value": "/subscriptions/17b60ba0-cb93-483e-a937-45cdff13ef90/resourceGroups/rgrp-dva2-cp-datalake/providers/Microsoft.Storage/storageAccounts/saccdva2cpedwhdlake001"
+		},
+		"MPEP_EDWH_DATALAKE_properties_groupId": {
+			"value": "dfs"
+		},
+		"MPEP_EDWH_DL_STAGING_properties_privateLinkResourceId": {
+			"value": "/subscriptions/17b60ba0-cb93-483e-a937-45cdff13ef90/resourceGroups/rgrp-dva2-cp-polystage/providers/Microsoft.Storage/storageAccounts/saccdva2cppolystage001"
+		},
+		"MPEP_EDWH_DL_STAGING_properties_groupId": {
+			"value": "dfs"
+		},
+		"MPEP_EDWH_STAGING_properties_privateLinkResourceId": {
+			"value": "/subscriptions/17b60ba0-cb93-483e-a937-45cdff13ef90/resourceGroups/rgrp-dva2-cp-staging/providers/Microsoft.Sql/servers/asql-dva2-cp-edwhstaging001"
+		},
+		"MPEP_EDWH_STAGING_properties_groupId": {
+			"value": "sqlServer"
+		},
+		"MPEP_EDWH_SYNAPSE_properties_privateLinkResourceId": {
+			"value": "/subscriptions/17b60ba0-cb93-483e-a937-45cdff13ef90/resourceGroups/rgrp-dva2-cp-datawarehouse/providers/Microsoft.Synapse/workspaces/sywsdva2cpedwh001"
+		},
+		"MPEP_EDWH_SYNAPSE_properties_groupId": {
+			"value": "sql"
+		},
+		"MPEP_EDWH_SYNAPSE_002_properties_privateLinkResourceId": {
+			"value": "/subscriptions/17b60ba0-cb93-483e-a937-45cdff13ef90/resourceGroups/rgrp-dva2-cp-datawarehouse/providers/Microsoft.Synapse/workspaces/sywsdva2cpedwh002"
+		},
+		"MPEP_EDWH_SYNAPSE_002_properties_groupId": {
+			"value": "sql"
+		}
+	}
+}
