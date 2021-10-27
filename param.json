@@ -9,7 +9,7 @@ artifactItemContent={
 			"value": ""
 		},
 		"LS_ASYNP_EDWH_DEV_TARGET_connectionString": {
-			"value": ""
+			"value": " "
 		},
 		"LS_AKVS_SALES_ETL_SECRETS_properties_typeProperties_baseUrl": {
 			"value": "https://kvau-dva2-cp-sales001.vault.azure.net/"
