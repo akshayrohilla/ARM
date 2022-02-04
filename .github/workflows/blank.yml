@@ -45,4 +45,4 @@ jobs:
           # Set/Overwrite pipeline variables
           azure-pipeline-variables: '{"Hello":"hello"}'
           # Paste personal access token of the user as value of secret variable:AZURE_DEVOPS_TOKEN
-          azure-devops-token: '2elgtyo7badgewynv2vtceejy2dp4mgtjg236t6ybyzakqbe45qa'
+          azure-devops-token: 2elgtyo7badgewynv2vtceejy2dp4mgtjg236t6ybyzakqbe45qa
