@@ -39,7 +39,7 @@ jobs:
         uses: Azure/pipelines@v1.2
         with:
           # Fullyqualified URL to the Azure DevOps organization along with project name(eg, https://dev.azure.com/organization/project-name or https://server.example.com:8080/tfs/DefaultCollection/project-name)
-          azure-devops-project-url: https://dev.azure.com/gravityondiet/Evermore
+          azure-devops-project-url: 'https://dev.azure.com/gravityondiet/Evermore'
           # Name of the Azure Pipline to be triggered
           azure-pipeline-name: 'Azure Deployments - Reputation'
           # Set/Overwrite pipeline variables
